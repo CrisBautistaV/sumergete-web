@@ -60,10 +60,20 @@
         }
         
         .coming-soon {
-            font-size: 4rem;
+            font-size: 3.5rem;
             font-weight: bold;
             margin: 30px 0;
             background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pulse 2s infinite;
+        }
+
+        .subtitle {
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 30px 0;
+            background: linear-gradient(45deg, #ccccc6, #eecf22);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: pulse 2s infinite;
@@ -347,6 +357,7 @@
         
         <!--<h1>Sumérgete en el Cuento</h1>-->
         
+        <div class="subtitle">Sumérgete en el Cuento</div>
         <div class="coming-soon">Próximamente</div>
 
         <div class="launch-date">
