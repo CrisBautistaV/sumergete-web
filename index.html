@@ -221,6 +221,13 @@
             line-height: 1.6;
         }
 
+        .feature iframe {
+            width: 100%; /* Ajusta el ancho al contenedor */
+            aspect-ratio: 16 / 9; /* Mantiene la proporción 16:9 */
+            height: auto; /* Ajusta la altura automáticamente */
+        }
+
+
         @media (max-width: 768px) {
             .container {
                 padding: 30px 20px;
@@ -382,18 +389,18 @@
         <!--</div>-->
 
         <p>   <br><br><br>
-        </p>
+        
         <h2>Documental</h2>
         <p><br>
         <div class="feature">
-            <iframe width="480" height="270" 
-                src="https://www.youtube.com/embed/Eq5v_jwALOg?si=aJa6HCALqrc18LXQ" 
+            <iframe 
+                src="https://www.youtube.com/embed/Eq5v_jwALOg" 
                 title="Sumérgete en el Cuento: documental" 
                 frameborder="0" 
                 allowfullscreen>
             </iframe>
         </div>
-
+        </p>
 
         <footer>
             <p>Sumérgete en el Cuento. Por Yarib Bautista y Sakay Cruz.</p>
